@@ -1,0 +1,133 @@
+.message.active, .message:hover {
+    background-color: #1e1e1e !important;
+}
+
+.message .body,
+.rc-room-actions__action,
+.rc-room-actions__more-action,
+.contextual-bar__header-data,
+.rc-input__icon,
+.rc-input__element,
+.rc-header__status,
+.rc-user-info-details__label,
+.contextual-bar__content,
+.rc-popover__item,
+.rc-switch-double,
+.rc-message-box__textarea {
+    color: #ddd !important;
+}
+
+.message .title .is-bot, .message .title .role-tag, .chip-container__item, .chip-container li {
+    background: #444 !important;
+    border-color: #222 !important;
+    color: #ccc !important;
+}
+
+.messages-container .footer {
+    background-color: #1e1e1e !important;
+    color: #eee !important;
+}
+
+.message .user,
+.rc-header__name,
+.rocket-search-tab,
+.rc-user-info__name,
+.rc-user-info-details__info,
+.flex-tab__result .attachments__name,
+.rc-message-box__toolbar-formatting-item.active,
+.rc-message-box__toolbar-formatting-item:focus,
+.rc-message-box__toolbar-formatting-item:hover {
+    color: #eee !important;
+}
+
+.rc-header, .rc-message-box__container.editing, .rc-header__wrap {
+    background: #1e1e1e !important;
+}
+
+
+.rc-room-actions__action:hover, .rc-room-actions__more-action:hover, .message a {
+    color: #e53935 !important;
+}
+
+.contextual-bar__content,
+.rc-old .messages-container,
+.rc-old .messages-container-wrapper,
+.rc-popover__column,
+.rc-popover__content,
+.message-box,
+.message {
+    background: #121212 !important;
+}
+.thread-message+.thread-message, .contextual-bar__header, .contextual-bar__header-data {
+    border-color: #1e1e1e !important;
+}
+
+
+.rc-button--primary, .rc-popover__item-radio:checked+.rc-popover__item-radio-label, .rc-popover__item-radio-label:after {
+    background: #ab000d !important;
+}
+
+.attachment .attachment-title,
+.rc-user-info-details__item a,
+.rc-user-info-details__item a:hover,
+.rc-user-info__config-value,.message a:hover {
+    color: #ab000d !important;
+}
+
+.rc-button--outline {
+    background: #eee !important;
+}
+
+.message.new-day::before {
+    background-color: #222 !important;
+    color: #ddd !important;
+}
+
+.rc-user-info-details,
+.flex-tab__result .attachments__item.active,
+.flex-tab__result .attachments__item:hover,
+.contextual-bar__header,
+.contextual-bar__header-data {
+    background: #272727 !important;
+}
+
+.rc-switch__input:checked+.rc-switch__button {
+    background: #ab000d !important;
+    border-color: #222 !important;
+}
+
+.mention-link, .message .mention-link {
+    background: #ddd !important;
+    color: #000 !important;
+}
+
+.mention-link:hover, .message .mention-link:hover {
+    opacity: .8 !important;
+}
+
+.mention-link--me, .message .mention-link--me, .mention-link--me:hover, .message .mention-link--me:hover {
+    background: #9a000c !important;
+    color: #eee !important;
+}
+
+.mention-link--group, .message .mention-link--group {
+    background: #fff !important;
+}
+
+.message .reactions>li {
+    color: #eee !important;
+    border-color: #ddd !important;
+    background-color: #121212 !important;
+}
+
+.message .reactions>li.selected, .message .reactions>li:hover {
+    border-color: #ab000d !important;
+}
+
+.message-body--unstyled {
+    color: #bbb !important;
+}
+
+.background-transparent-darker-before::before {
+    background-color: rgba(255,255,255,0.15) !important;
+}
