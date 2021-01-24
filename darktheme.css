@@ -1,133 +1,215 @@
-.message.active, .message:hover {
+#rocket-chat .message.active, .message:hover {
     background-color: #1e1e1e !important;
 }
 
-.message .body,
-.rc-room-actions__action,
-.rc-room-actions__more-action,
-.contextual-bar__header-data,
-.rc-input__icon,
-.rc-input__element,
-.rc-header__status,
-.rc-user-info-details__label,
-.contextual-bar__content,
-.rc-popover__item,
-.rc-switch-double,
-.rc-message-box__textarea {
+#rocket-chat .message .body,
+#rocket-chat .rc-room-actions__action,
+#rocket-chat .rc-room-actions__more-action,
+#rocket-chat .contextual-bar__header-data,
+#rocket-chat .rc-input__icon,
+#rocket-chat .rc-input__element,
+#rocket-chat .rc-header__status,
+#rocket-chat .rc-user-info-details__label,
+#rocket-chat .contextual-bar__content,
+#rocket-chat .rc-popover__item,
+#rocket-chat .rc-switch-double,
+#rocket-chat .rc-message-box__textarea,
+#rocket-chat .rc-member-list__counter,
+#rocket-chat .rc-old .page-container,
+#rocket-chat .rc-popover__icon,
+#rocket-chat .rc-popover__item-text,
+#rocket-chat .rc-select__element,
+#rocket-chat .rc-button--nude,
+.rc-modal-wrapper .rc-input__icon+.rc-input__element,
+#rocket-chat .rc-table-title,
+.rc-popover .rc-popover__item-text,
+.rc-popover .rc-popover__icon,
+.rc-old.main-content legend,
+.rc-old.main-content label {
     color: #ddd !important;
 }
 
-.message .title .is-bot, .message .title .role-tag, .chip-container__item, .chip-container li {
+#rocket-chat .message .title .is-bot,
+#rocket-chat .message .title .role-tag,
+#rocket-chat .chip-container__item, .chip-container li {
     background: #444 !important;
     border-color: #222 !important;
     color: #ccc !important;
 }
 
-.messages-container .footer {
+#rocket-chat .messages-container .footer {
     background-color: #1e1e1e !important;
     color: #eee !important;
 }
 
-.message .user,
-.rc-header__name,
-.rocket-search-tab,
-.rc-user-info__name,
-.rc-user-info-details__info,
-.flex-tab__result .attachments__name,
-.rc-message-box__toolbar-formatting-item.active,
-.rc-message-box__toolbar-formatting-item:focus,
-.rc-message-box__toolbar-formatting-item:hover {
+#rocket-chat .message .user,
+#rocket-chat .rc-header__name,
+#rocket-chat .rocket-search-tab,
+#rocket-chat .rc-user-info__name,
+#rocket-chat .rc-popover__title,
+#rocket-chat .rc-user-info-details__info,
+#rocket-chat .flex-tab__result .attachments__name,
+#rocket-chat .rc-message-box__toolbar-formatting-item.active,
+#rocket-chat .rc-message-box__toolbar-formatting-item:focus,
+#rocket-chat .rc-message-box__toolbar-formatting-item:hover,
+#rocket-chat .rc-message-box__typing-user,
+#rocket-chat .contextual-bar__header-close-icon,
+.rc-popover .rc-popover__title {
     color: #eee !important;
 }
 
-.rc-header, .rc-message-box__container.editing, .rc-header__wrap {
+#rocket-chat .rc-header,
+#rocket-chat .rc-message-box__container.editing,
+#rocket-chat .rc-header__wrap,
+#rocket-chat .rc-old .page-container,
+#rocket-chat .message-popup-results .message-popup-title {
     background: #1e1e1e !important;
 }
 
 
-.rc-room-actions__action:hover, .rc-room-actions__more-action:hover, .message a {
+#rocket-chat .rc-room-actions__action:hover,
+#rocket-chat .rc-room-actions__more-action:hover,
+#rocket-chat .rc-old .page-container a,
+#rocket-chat .message a {
     color: #e53935 !important;
 }
 
-.contextual-bar__content,
-.rc-old .messages-container,
-.rc-old .messages-container-wrapper,
-.rc-popover__column,
-.rc-popover__content,
-.message-box,
-.message {
+#rocket-chat .contextual-bar__content,
+#rocket-chat .rc-old .messages-container,
+#rocket-chat .rc-old .messages-container-wrapper,
+#rocket-chat .rc-popover__column,
+#rocket-chat .rc-popover__content,
+#rocket-chat .message-box,
+#rocket-chat .message,
+#rocket-chat .rc-popover__content,
+#rocket-chat .rc-select__element,
+#rocket-chat .rc-modal__footer,
+#rocket-chat .first-unread .body:after,
+#rocket-chat .message-popup-results .message-popup .popup-item.selected,
+#rocket-chat .rc-table tbody tr:not(.table-no-click):not(.table-no-pointer):hover,
+#rocket-chat .rc-user-info-container,
+.rc-popover .rc-popover__column,
+.rc-popover .rc-popover__content {
     background: #121212 !important;
 }
-.thread-message+.thread-message, .contextual-bar__header, .contextual-bar__header-data {
+
+#rocket-chat .thread-message+.thread-message,
+#rocket-chat .contextual-bar__header,
+#rocket-chat .contextual-bar__header-data {
     border-color: #1e1e1e !important;
 }
 
 
-.rc-button--primary, .rc-popover__item-radio:checked+.rc-popover__item-radio-label, .rc-popover__item-radio-label:after {
+#rocket-chat .rc-button--primary,
+.rc-modal-wrapper .rc-button--primary,
+#rocket-chat .rc-popover__item-radio:checked+.rc-popover__item-radio-label,
+#rocket-chat .rc-popover__item-radio-label:after {
     background: #ab000d !important;
 }
 
-.attachment .attachment-title,
-.rc-user-info-details__item a,
-.rc-user-info-details__item a:hover,
-.rc-user-info__config-value,.message a:hover {
+#rocket-chat .attachment .attachment-title,
+#rocket-chat .rc-user-info-details__item a,
+#rocket-chat .rc-user-info-details__item a:hover,
+#rocket-chat .rc-old .page-container a:hover,
+#rocket-chat .rc-user-info__config-value,.message a:hover {
     color: #ab000d !important;
 }
 
-.rc-button--outline {
+#rocket-chat .rc-button--outline {
     background: #eee !important;
 }
 
-.message.new-day::before {
+#rocket-chat .message.new-day::before {
     background-color: #222 !important;
     color: #ddd !important;
 }
 
-.rc-user-info-details,
-.flex-tab__result .attachments__item.active,
-.flex-tab__result .attachments__item:hover,
-.contextual-bar__header,
-.contextual-bar__header-data {
+#rocket-chat .rc-user-info-details,
+#rocket-chat .flex-tab__result .attachments__item.active,
+#rocket-chat .flex-tab__result .attachments__item:hover,
+#rocket-chat .contextual-bar__header,
+#rocket-chat .contextual-bar__header-data,
+#rocket-chat .message-popup-results .message-popup,
+#rocket-chat .rc-member-list__user.active,
+#rocket-chat .rc-member-list__user:hover {
     background: #272727 !important;
 }
 
-.rc-switch__input:checked+.rc-switch__button {
+#rocket-chat .rc-switch__input:checked+.rc-switch__button {
     background: #ab000d !important;
     border-color: #222 !important;
 }
 
-.mention-link, .message .mention-link {
+#rocket-chat .mention-link,
+#rocket-chat .message .mention-link {
     background: #ddd !important;
     color: #000 !important;
 }
 
-.mention-link:hover, .message .mention-link:hover {
+#rocket-chat .mention-link:hover,
+#rocket-chat .message .mention-link:hover {
     opacity: .8 !important;
 }
 
-.mention-link--me, .message .mention-link--me, .mention-link--me:hover, .message .mention-link--me:hover {
+#rocket-chat .mention-link--me,
+#rocket-chat .message .mention-link--me,
+#rocket-chat .mention-link--me:hover,
+#rocket-chat .message .mention-link--me:hover {
     background: #9a000c !important;
     color: #eee !important;
 }
 
-.mention-link--group, .message .mention-link--group {
+#rocket-chat .mention-link--group,
+#rocket-chat .message .mention-link--group {
     background: #fff !important;
 }
 
-.message .reactions>li {
+#rocket-chat .message .reactions>li {
     color: #eee !important;
     border-color: #ddd !important;
     background-color: #121212 !important;
 }
 
-.message .reactions>li.selected, .message .reactions>li:hover {
+#rocket-chat .message .reactions>li.selected,
+#rocket-chat .message .reactions>li:hover {
     border-color: #ab000d !important;
 }
 
-.message-body--unstyled {
+#rocket-chat .message-body--unstyled {
     color: #bbb !important;
 }
 
-.background-transparent-darker-before::before {
+#rocket-chat .background-transparent-darker-before::before {
     background-color: rgba(255,255,255,0.15) !important;
+}
+
+#rocket-chat .rc-modal-wrapper {
+    background: rgba(0,0,0,.8) !important;
+}
+
+#rocket-chat .rc-modal {
+    background: #121212 !important;
+    color: #eee !important;
+}
+
+#rocket-chat .tab.active {
+    color: #ab000d !important;
+    border-color: #ab000d !important;
+}
+
+#rocket-chat .rc-old .dropzone .dropzone-overlay {
+    color: #ab000d !important;
+    border-color: #ab000d !important;
+    background: rgba(0,0,0,0.7) !important;
+    box-shadow: 0 0 0 17px #000 !important;
+}
+
+.rc-modal-wrapper, .rc-old.main-content {
+    background: #1e1e1e !important;
+    color: #ddd !important;
+}
+
+.rc-form-group.rc-grid .rc-button {
+    color: #ddd !important;
+    border-color: #ddd !important;
 }
