@@ -1,4 +1,6 @@
-#rocket-chat .message.active, .message:hover {
+#rocket-chat .message.active,
+#rocket-chat .message:hover,
+#rocket-chat .upload-progress-progress {
     background-color: #1e1e1e !important;
 }
 
@@ -54,7 +56,14 @@
 #rocket-chat .rc-message-box__toolbar-formatting-item:hover,
 #rocket-chat .rc-message-box__typing-user,
 #rocket-chat .contextual-bar__header-close-icon,
-.rc-popover .rc-popover__title {
+.rc-popover .rc-popover__title,
+#rocket-chat .message-actions__button,
+#rocket-chat .message-actions__menu,
+.rc-popover__content.emoji-picker .rc-input__element,
+.rc-modal-wrapper .rc-modal__footer .rc-button--nude,
+.rc-modal-wrapper .upload-preview-title .rc-input__element,
+.rc-modal-wrapper .rc-modal,
+.rc-modal-wrapper .rc-modal__footer {
     color: #eee !important;
 }
 
@@ -89,7 +98,10 @@
 #rocket-chat .rc-table tbody tr:not(.table-no-click):not(.table-no-pointer):hover,
 #rocket-chat .rc-user-info-container,
 .rc-popover .rc-popover__column,
-.rc-popover .rc-popover__content {
+.rc-popover .rc-popover__content,
+.rc-popover__content.emoji-picker .emojis .emoji-list li.emoji-picker-item:hover,
+.rc-modal-wrapper .rc-modal,
+.rc-modal-wrapper .rc-modal__footer {
     background: #121212 !important;
 }
 
@@ -98,7 +110,6 @@
 #rocket-chat .contextual-bar__header-data {
     border-color: #1e1e1e !important;
 }
-
 
 #rocket-chat .rc-button--primary,
 .rc-modal-wrapper .rc-button--primary,
@@ -111,7 +122,8 @@
 #rocket-chat .rc-user-info-details__item a,
 #rocket-chat .rc-user-info-details__item a:hover,
 #rocket-chat .rc-old .page-container a:hover,
-#rocket-chat .rc-user-info__config-value,.message a:hover {
+#rocket-chat .rc-user-info__config-value,.message a:hover,
+#rocket-chat .message-actions__button:hover {
     color: #ab000d !important;
 }
 
@@ -217,4 +229,14 @@
 #rocket-chat .unread-bar {
     background: #272727 !important;
     color: #ab000d !important;
+}
+
+.rc-popover__content.emoji-picker {
+    background: #222 !important;
+    color: #eee !important;
+}
+
+#rocket-chat .upload-progress {
+    background: #000 !important;
+    color: #eee !important;
 }
